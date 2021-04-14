@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        section.counter
+        {
+            background: rgb(153, 12, 12);
+            height: 100vh;
+            display: grid;
+                place-items: center;
+
+            .container
+            {
+                button
+                {
+                    padding: 5rem;
+                    font-size: 5rem;
+                    cursor: pointer;
+                    outline: none;
+                }
+
+                span
+                {
+                    font-size: 8rem;
+                    color: yellow;
+                    margin: 0 1rem;
+                }
+            }
+        }
+    }
+}
